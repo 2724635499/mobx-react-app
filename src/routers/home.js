@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { inject, observer } from 'mobx-react'
 
-
+@inject(store => store)
+@observer
 class Home extends Component {
   render() {
-    return (
-       <div>Home</div>
-    );
+    console.log(this.props.store.todoStore.todos)
+    return <div>Home</div>
   }
 }
 
-export default Home;
-
- 
+export default Home
