@@ -1,5 +1,5 @@
-import Loadable from 'react-loadable';
-import Loading from './Loading';
+import Loadable from 'react-loadable'
+import Loading from './Loading'
 
 let config = [
   {
@@ -47,6 +47,6 @@ let config = [
       loading: Loading
     })
   }
-];
+]
 
-export default config;
+export default config

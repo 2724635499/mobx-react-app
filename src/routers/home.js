@@ -5,7 +5,7 @@ import { inject, observer } from 'mobx-react'
 @observer
 class Home extends Component {
   render() {
-    console.log(this.props.store.todoStore.todos)
+    console.log(this.props.store)
     return <div>Home</div>
   }
 }
