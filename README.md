@@ -1,4 +1,24 @@
-## 功能列表
+
+
+mobx-react-app
+=====================
+
+* React Router V4
+* Webpack V4
+
+
+## run
+
+```
+npm install
+npm start
+```
+
+Browser should open automatically. 
+
+## Table of Contents
+
+## Table of Contents
   - [Code Splitting](#code-splitting)
 
 
